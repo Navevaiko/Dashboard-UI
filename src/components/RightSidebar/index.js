@@ -12,8 +12,16 @@ import {
     Card,
     CardsSlider,
     SliderDot,
-    SelectedSliderDot
+    SelectedSliderDot,
+    FiltersContainers,
+    FilterButon,
+    SelectedFilterButton,
+    FilterButtonText
 } from './style';
+
+import { FaExchangeAlt } from 'react-icons/fa';
+import { RiDownloadLine } from 'react-icons/ri';
+import { FiPlus } from 'react-icons/fi';
 
 export default function RightSidebar() {
     const [cards, setCards] = useState([
@@ -65,6 +73,21 @@ export default function RightSidebar() {
                     ))
                 }
             </CardsSlider>
+
+            <FiltersContainers>
+                <FilterButon as={SelectedFilterButton}>
+                    <FilterButtonText> Transfer </FilterButtonText>
+                    <FaExchangeAlt />
+                </FilterButon>
+
+                <FilterButon>
+                    <RiDownloadLine />
+                </FilterButon>
+
+                <FilterButon>
+                    <FiPlus />
+                </FilterButon>
+            </FiltersContainers>
         </Sidebar>
     );
 }

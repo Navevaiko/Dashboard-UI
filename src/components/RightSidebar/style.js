@@ -68,3 +68,40 @@ export const SelectedSliderDot = styled(SliderDot)`
     background: ${theme.colors.lightBlue};
     border-radius: 0.2vw;
 `;
+
+export const FiltersContainers = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 16vw;
+    height: 8vh;
+    margin-top: 1.6vw;
+    justify-content: space-around;
+    align-items: center;
+`;
+
+export const FilterButon = styled.button`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 2.6vw;
+    border-radius: 0.3vw;
+    background: ${theme.colors.lightGray};
+    color: ${theme.colors.lightBlue};
+    font-size: 1.4em;
+    cursor: pointer;
+    margin-right: 0.6vw;
+`;
+
+export const SelectedFilterButton = styled(FilterButon)`
+    flex: 1;
+    background: ${theme.colors.lightBlue};
+    color: ${theme.colors.white};
+    justify-content: space-around;
+    border-radius: 0.6vw;
+`;
+
+export const FilterButtonText = styled.h3`
+    font-size: 0.8em;
+    font-weight: normal;
+`;
