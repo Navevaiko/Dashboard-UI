@@ -27,7 +27,7 @@ const Global = createGlobalStyle`
     body, #root {
         background: ${theme.colors.lightGray};
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100vw;
         height: 100vh;  
     }
