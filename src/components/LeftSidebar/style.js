@@ -46,7 +46,7 @@ export const MenuItem = styled.a`
     border-radius: 0.6vw;
     margin: 0.3vw auto;
     background: ${props => props.isSelected? theme.colors.lightBlue : 'transparent'};
-    color: ${props => props.isSelected? theme.colors.white : theme.colors.grey};;
+    color: ${props => props.isSelected? theme.colors.white : theme.colors.gray};
     justify-content: center;
     align-items: center;
     cursor: pointer;

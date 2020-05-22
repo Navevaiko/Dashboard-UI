@@ -4,13 +4,17 @@ export const theme = {
     colors: {
         lightBlue: '#4971FF',
         darkBlue: '#343662',
-        lightGray: '#F4F6FD',
-        lightGreen: '#7DD155',
+        gray: '#F4F6FD',
+        lightGreen: '#E2F5D9',
         green: '#6FCC43',
-        lightYellow: '#D84646',
-        grey: '#EAEAEA',
+        lightYellow: '#FFF3CD',
+        darkGrey: '#AAAAAA',
         black: '#000000',
         white: '#FFFFFF',
+        yellow: '#FFC518',
+        red: '#DA3D3B',
+        lightRed: '#FEECEB',
+        lightGrey: '#F5F5F5'
     }
 };
 
@@ -25,7 +29,7 @@ const Global = createGlobalStyle`
     }
 
     body, #root {
-        background: ${theme.colors.lightGray};
+        background: ${theme.colors.gray};
         display: flex;
         flex-direction: row;
         width: 100vw;
