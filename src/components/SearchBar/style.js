@@ -16,7 +16,7 @@ export const MainContainer = styled.div`
 
 export const SearchContainer = styled.div`
     display: flex;
-    width: 57vw;
+    width: 52vw;
     height: 6vh;
     border: solid 1px ${theme.colors.gray};
     border-radius: 0.6vw;
@@ -46,6 +46,7 @@ export const CalendarContainer = styled.div`
     background: ${theme.colors.white};
     justify-content: space-around;
     align-items: center;
+    margin-right: 4vw;
 `;
 
 export const CalendarIcon = styled(BsCalendar)`
