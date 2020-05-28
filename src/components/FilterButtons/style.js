@@ -19,7 +19,7 @@ export const FilterButon = styled.button`
     width: 3vw;
     height: 2.6vw;
     border-radius: 0.3vw;
-    background: ${theme.colors.gray};
+    background: ${theme.colors.lightGrey};
     cursor: pointer;
     margin-right: 0.6vw;
 `;

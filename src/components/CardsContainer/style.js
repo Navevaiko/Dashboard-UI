@@ -36,7 +36,7 @@ export const SliderDot = styled.div`
     width: 0.4vw;
     height: 0.4vw;
     border-radius: 100%;
-    background: ${theme.colors.gray};
+    background: ${theme.colors.lightGrey};
     margin-right: 0.6vw;
 `;
 
