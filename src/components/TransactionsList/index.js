@@ -39,8 +39,8 @@ export default function TransactionsList() {
 
             <TransactionsContainer>
                 {
-                    transactions.map(transaction => (
-                        <TransactionCard>
+                    transactions.map((transaction, index) => (
+                        <TransactionCard key={index}>
                             <TransactionIcon 
                                 bgColor={transaction.bgColor}
                                 icColor={transaction.color}>
